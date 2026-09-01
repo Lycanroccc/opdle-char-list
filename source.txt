@@ -1,0 +1,204 @@
+EAST BLUE SAGA
+
+-- Romance Dawn Arc --
+Monkey D. Luffy | Male | Straw Hat Pirates | Zoan | Observation + Armament + Conqueror's | B 3B | 1m74 | East Blue | Romance Dawn | [Gomu Gomu no Mi] --> [Hito Hito no Mi, Model: Nika]
+Roronoa Zoro | Male | Straw Hat Pirates | None | Observation + Armament + Conqueror's | B 1.1B | 1m81 | East Blue | Romance Dawn
+Shanks | Male | Red Hair Pirates | None | Observation + Armament + Conqueror's | B 4B | 1m99 | West Blue | Romance Dawn
+Gol D. Roger | Male | Roger Pirates | None | Observation + Armament + Conqueror's | B 5.6B | 2m74 | East Blue | Romance Dawn
+Koby | Male | Marines | None | Observation + Armament | B 500M | 1m67 | East Blue | Romance Dawn
+Benn Beckman | Male | Red Hair Pirates | None | Armament | B 0 | 2m06 | North Blue | Romance Dawn
+
+-- Orange Town Arc --
+Nami | Female | Straw Hat Pirates | None | None | B 366M | 1m70 | East Blue | Orange Town
+Buggy | Male | Cross Guild | Paramecia | None | B 3.2B | 1m92 | Grand Line | Orange Town | [Bara Bara no Mi]
+Silvers Rayleigh | Male | Roger Pirates | None | Observation + Armament + Conqueror's | B 0 | 1m88 | Unknown | Orange Town
+
+-- Syrup Village Arc --
+Usopp | Male | Straw Hat Pirates | None | Observation | B 500M | 1m76 | East Blue | Syrup Village
+Kaya | Female | None | None | None | B 0 | 1m69 | East Blue | Syrup Village
+Kuro | Male | Black Cat Pirates | None | None | B 16M | 2m07 | East Blue | Syrup Village
+
+-- Baratie Arc --
+Sanji | Male | Straw Hat Pirates | None | Observation + Armament | B 1B | 1m80 | North Blue | Baratie
+Zeff | Male | Baratie | None | None | B 0 | 1m89 | East Blue | Baratie
+Dracule Mihawk | Male | Cross Guild | None | Observation + Armament | B 3.6B | 1m98 | Unknown | Baratie
+Don Krieg | Male | Krieg Pirates | None | None | B 17M | 2m43 | East Blue | Baratie
+Gin | Male | Krieg Pirates | None | None | B 12M | 1m86 | East Blue | Baratie
+
+-- Arlong Park Arc --
+Monkey D. Garp | Male | Marines | None | Observation + Armament + Conqueror's | B 3B | 2m87 | East Blue | Arlong Park
+Arlong | Male | Arlong Pirates | None | None | B 20M | 2m63 | Grand Line | Arlong Park
+Nojiko | Female | None | None | None | B 0 | 1m70 | East Blue | Arlong Park
+Bellemere | Female | Marines | None | None | B 0 | 1m86 | East Blue | Arlong Park
+
+-- Loguetown Arc --
+Monkey D. Dragon | Male | Revolutionary Army | None | None | B 0 | 2m56 | East Blue | Loguetown
+Smoker | Male | Marines | Logia | Observation + Armament | B 0 | 2m09 | Grand Line | Loguetown | [Moku Moku no Mi]
+Tashigi | Female | Marines | None | Observation + Armament | B 0 | 1m70 | East Blue | Loguetown
+
+ALABASTA SAGA
+
+-- Reverse Mountain Arc --
+Nefertari Vivi | Female | Arabasta Kingdom | None | None | B 0 | 1m69 | Grand Line | Reverse Mountain
+
+--- Whisky Peak Arc ---
+Nico Robin | Female | Straw Hat Pirates | Paramecia | None | B 930M | 1m88 | West Blue | Whisky Peak | [Hana Hana no Mi]
+
+-- Little Garden Arc --
+Brogy | Male | Giant Warrior Pirates | None | None | B 1.8B | 21m30 | Grand Line | Little Garden
+Dorry | Male | Giant Warrior Pirates | None | None | B 1.8B | 22m60 | Grand Line | Little Garden
+Crocodile | Male | Cross Guild | Logia | Observation + Armament | B 2B | 2m53 | Grand Line | Little Garden | [Suna Suna no Mi]
+Galdino | Male | Cross Guild | Paramecia | None | B 24M | 1m79 | South Blue | Little Garden | [Doru Doru no Mi]
+Bentham | Male | Newkama Land | Paramecia | None | B 32M | 2m38 | East Blue | Little Garden | [Mane Mane no Mi]
+
+-- Drum Island Arc --
+Tony Tony Chopper | Male | Straw Hat Pirates | Zoan | None | B 1K | 90cm | Grand Line | Drum Island | [Hito Hito no Mi]
+Kureha | Female | Sakura Kingdom | None | None | B 0 | 1m88 | Grand Line | Drum Island
+Hiriluk | Male | None | None | None | B 0 | 2m13 | Grand Line | Drum Island
+Portgas D. Ace | Male | Whitebeard Pirates | Logia | Observation + Armament + Conqueror's | B 550M | 1m85 | South Blue | Drum Island | [Mera Mera no Mi] (former)
+
+-- Arabasta Arc --
+Edward Newgate (Whitebeard) | Male | Whitebeard Pirates | Paramecia | Observation + Armament + Conqueror's | B 5B | 6m66 | Grand Line | Arabasta | [Gura Gura no Mi] (former)
+Pell | Male | Arabasta Kingdom | Zoan | None | B 0 | 1m89 | Grand Line | Arabasta | [Tori Tori no Mi, Model: Falcon]
+Daz Bones | Male | Cross Guild | Paramecia | None | B 75M | 2m12 | West Blue | Arabasta | [Supa Supa no Mi]
+
+SKY ISLAND SAGA
+
+-- Jaya Arc --
+Bartholomew Kuma | Male | Revolutionary Army | Paramecia | Armament | B 296M | 6m89 | South Blue | Jaya | [Nikyu Nikyu no Mi]
+Sengoku | Male | Marines | Zoan | Observation + Armament + Conqueror's | B 0 | 2m78 | South Blue | Jaya | [Hito Hito no Mi, Model: Daibutsu]
+Marco | Male | Whitebeard Pirates | Zoan | Observation + Armament | B 1.4B | 2m03 | Grand Line | Jaya | [Tori Tori no Mi, Model: Phoenix]
+Marshall D. Teach (Blackbeard) | Male | Blackbeard Pirates | Logia | Observation + Armament | B 4B | 3m44 | Grand Line | Jaya | [Yami Yami no Mi] / [Gura Gura no Mi]
+Jesus Burgess | Male | Blackbeard Pirates | Paramecia | Observation + Armament | B 20M | 3m55 | Grand Line | Jaya | [Riki Riki no Mi]
+Donquixote Doflamingo | Male | Donquixote Pirates | Paramecia | Observation + Armament + Conqueror's | B 340M | 3m05 | Red Line | Jaya | [Ito Ito no Mi]
+Bellamy | Male | Donquixote Pirates | Paramecia | Observation + Armament | B 195M | 2m40 | North Blue | Jaya | [Bane Bane no Mi]
+Mont Blanc Cricket | Male | Saruyama Alliance | None | None | B 25M | 2m42 | North Blue | Jaya
+
+-- Skypiea Arc --
+Enel | Male | Automata | Logia | Observation | B 0 | 2m66 | Sky Islands | Skypiea | [Goro Goro no Mi]
+Wyper | Male | Shandia | None | None | B 0 | 1m83 | Sky Islands | Skypiea
+Mont Blanc Noland | Male | Lvneel | None | None | B 0 | 2m20 | North Blue | Skypiea
+
+WATER 7 SAGA
+
+-- Long Ring Long Land Arc --
+Kuzan | Male | Blackbeard Pirates | Logia | Observation + Armament | B 0 | 2m98 | South Blue | Long Ring Long Land | [Hie Hie no Mi]
+Foxy | Male | Foxy Pirates | Paramecia | None | B 24M | 1m80 | South Blue | Long Ring Long Land | [Noro Noro no Mi]
+
+-- Water 7 Arc --
+Franky | Male | Straw Hat Pirates | None | None | B 394M | 2m40 | South Blue | Water 7
+Iceburg | Male | Galley-La Company | None | None | B 0 | 1m99 | Grand Line | Water 7
+Paulie | Male | Galley-La Company | None | None | B 0 | 1m95 | Grand Line | Water 7
+Rob Lucci | Male | CP0 | Zoan | Observation + Armament | B 0 | 2m12 | Grand Line | Water 7 | [Neko Neko no Mi, Model: Leopard]
+Kaku | Male | CP0 | Zoan | Observation + Armament | B 0 | 1m93 | East Blue | Water 7 | [Ushi Ushi no Mi, Model: Giraffe]
+Kalifa | Female | CP0 | Paramecia | Observation + Armament | B 0 | 1m85 | Grand Line | Water 7 | [Awa Awa no Mi]
+Blueno | Male | CP0 | Paramecia | Observation + Armament | B 0 | 2m58 | North Blue | Water 7 | [Doa Doa no Mi]
+Spandam | Male | CP0 | None | None | B 0 | 1m92 | Grand Line | Water 7
+
+-- Enies Lobby Arc --
+Sakazuki | Male | Marines | Logia | Observation + Armament | B 5B | 3m06 | North Blue | Enies Lobby | [Magu Magu no Mi]
+Jabra | Male | CP0 | Zoan | Observation + Armament | B 0 | 2m12 | North Blue | Enies Lobby | [Inu Inu no Mi, Model: Wolf]
+
+THRILLER BARK SAGA
+
+-- Thriller Bark Arc --
+Brook | Male | Straw Hat Pirates | Paramecia | None | B 383M | 2m77 | West Blue | Thriller Bark | [Yomi Yomi no Mi]
+Perona | Female | Dracule Mihawk | Paramecia | None | B 0 | 1m60 | West Blue | Thriller Bark | [Horo Horo no Mi]
+Gecko Moria | Male | Thriller Bark Pirates | Paramecia | None | B 320M | 6m92 | West Blue | Thriller Bark | [Kage Kage no Mi]
+Hogback | Male | Thriller Bark Pirates | None | None | B 0 | 2m23 | West Blue | Thriller Bark
+Shimotsu Ryuma | Male | Thriller Bark Pirates | None | Armament | B 0 | 1m79 | Grand Line | Thriller Bark
+Oars | Male | Thriller Bark Pirates | None | None | B 0 | 67m | North Blue | Thriller Bark
+
+SUMMIT WAR SAGA
+
+-- Sabaody Archipelago Arc --
+Trafalgar Law | Male | Heart Pirates | Paramecia | Observation + Armament | B 3B | 1m91 | North Blue | Sabaody Archipelago | [Ope Ope no Mi]
+Bepo | Male | Heart Pirates | None | None | B 500 | 2m40 | Grand Line | Sabaody Archipelago
+Camie | Female | Takoyaki 8 | None | None | B 0 | 1m97 | Grand Line | Sabaody Archipelago
+Eustass Kid | Male | Kid Pirates | Paramecia | Observation + Armament + Conqueror's | ฿3B | 2m05 | South Blue | Sabaody Archipelago | [Jiki Jiki no Mi]
+Killer | Male | Kid Pirates | Zoan | Observation + Armament | B 200M | 1m95 | South Blue | Sabaody Archipelago | [SMILE]
+Jewelry Bonney | Female | Bonney Pirates | Paramecia | Armament | B 320M | 1m74 | Red Line | Sabaody Archipelago | [Toshi Toshi no Mi]
+Borsalino | Male | Marines | Logia | Observation + Armament | B 3B | 3m02 | North Blue | Sabaody Archipelago | [Pika Pika no Mi]
+X Drake | Male | Marines | Zoan | Observation + Armament | B 222M | 2m33 | North Blue | Sabaody Archipelago | [Ryu Ryu no Mi, Model: Allosaurus]
+Basil Hawkins | Male | Hawkins Pirates | Paramecia | Observation + Armament | B 320M | 2m10 | North Blue | Sabaody Archipelago | [Wara Wara no Mi]
+Capone Bege | Male | Fire Tank Pirates | Paramecia | None | B 350M | 1m66 | West Blue | Sabaody Archipelago | [Shiro Shiro no Mi]
+Urouge | Male | Fallen Monk Pirates | Paramecia | None | B 108M | 3m88 | Sky Islands | Sabaody Archipelago | [Unnamed]
+
+-- Amazon Lily Arc --
+Boa Hancock | Female | Kuja | Paramecia | Observation + Armament + Conqueror's | B 1.7B | 1m91 | Calm Belt | Amazon Lily | [Mero Mero no Mi]
+
+-- Impel Down Arc --
+Jinbe | Male | Straw Hat Pirates | None | Observation + Armament | B 1.1B | 3m01 | Grand Line | Impel Down
+Emporio Ivankov | Male | Revolutionary Army | Paramecia | None | B 100M | 4m49 | Grand Line | Impel Down | [Horu Horu no Mi]
+Magellan | Male | Impel Down | Paramecia | None | B 0 | 4m91 | Grand Line | Impel Down | [Doku Doku no Mi]
+
+-- Post-War Arc --
+Sabo | Male | Revolutionary Army | Logia | Observation + Armament | B 602M | 1m87 | East Blue | Post-War | [Mera Mera no Mi]
+
+FISH-MAN ISLAND SAGA
+
+-- Return to Sabaody Arc --
+Caribou | Male | Caribou Pirates | Logia | None | B 210M | 2m28 | North Blue | Return to Sabaody | [Numa Numa no Mi]
+
+-- Fish-Man Island Arc --
+Shirahoshi | Female | Neptune Family | None | Observation | B 0 | 11m87 | Grand Line | Fish-Man Island
+Koala | Female | Revolutionary Army | None | None | B 0 | 1m60 | Unknown | Fish-Man Island
+Charlotte Linlin (Big Mom) | Female | Big Mom Pirates | Paramecia | Observation + Armament + Conqueror's | B 4.4B | 8m80 | Grand Line | Fish-Man Island | [Soru Soru no Mi]
+Charlotte Pudding | Female | Big Mom Pirates | Paramecia | None | B 0 | 1m66 | Grand Line | Fish-Man Island | [Memo Memo no Mi]
+Pekoms | Male | Big Mom Pirates | Zoan | Observation + Armament | B 330M | 2m32 | Grand Line | Fish-Man Island | [Kame Kame no Mi]
+Hody Jones | Male | New Fish-Man Pirates | None | None | B 0 | 3m31 | Grand Line | Fish-Man Island
+
+DRESSROSA SAGA
+
+-- Punk Hazard Arc --
+Caesar Clown | Male | Germa Kingdom | Logia | None | B 300M | 3m09 | Grand Line | Punk Hazard | [Gasu Gasu no Mi]
+Monet | Female | Donquixote Pirates | Logia | None | B 0 | 2m27 | North Blue | Punk Hazard | [Yuki Yuki no Mi]
+Kin'emon | Male | Kozuki Family | Paramecia | Observation + Armament | B 0 | 2m95 | Grand Line | Punk Hazard | [Fuku Fuku no Mi]
+Kozuki Momonosuke | Male | Kozuki Family | Zoan | Observation | B 0 | 3m22 | Grand Line | Punk Hazard | [Uo Uo no Mi, Model: Seiryu] (Artificial)
+
+-- Dressrosa Arc --
+Rebecca | Female | Dressrosa | None | Observation | B 0 | 1m71 | Grand Line | Dressrosa
+Bartolomeo | Male | Barto Club | Paramecia | None | B 200M | 2m20 | East Blue | Dressrosa | [Bari Bari no Mi]
+Kyros | Male | Riku Family | None | None | B 0 | 2m98 | Grand Line | Dressrosa
+Viola | Female | Riku Family | Paramecia | None | B 0 | 1m78 | Grand Line | Dressrosa | [Giro Giro no Mi]
+Cavendish | Male | Beautiful Pirates | None | Observation + Armament | B 330M | 2m08 | Grand Line | Dressrosa
+Donquixote Rosinante | Male | Marines | Paramecia | None | B 0 | 2m93 | Red Line | Dressrosa | [Nagi Nagi no Mi]
+Issho | Male | Marines | Paramecia | Observation + Armament | B 3B | 2m70 | Grand Line | Dressrosa | [Zushi Zushi no Mi]
+Pica | Male | Donquixote Pirates | Paramecia | Observation + Armament | B 99M | 4m70 | North Blue | Dressrosa | [Ishi Ishi no Mi]
+Diamante | Male | Donquixote Pirates | Paramecia | Observation + Armament | B 99M | 5m25 | North Blue | Dressrosa | [Hira Hira no Mi]
+Senor Pink | Male | Donquixote Pirates | Paramecia | None | B 58M | 2m44 | North Blue | Dressrosa | [Sui Sui no Mi]
+Kurozumi Kanjuro | Male | Kurozumi Family | Paramecia | Observation + Armament | B 0 | 3m47 | Unknown | Dressrosa | [Fude Fude no Mi]
+Kaido | Male | Beasts Pirates | Zoan | Observation + Armament + Conqueror's | B 4.6B | 7m10 | Grand Line | Dressrosa | [Uo Uo no Mi, Model: Seiryu]
+
+WHOLE CAKE ISLAND SAGA
+
+-- Zou Arc --
+Raizo | Male | Kozuki Family | Paramecia | Observation + Armament | B 0 | 3m11 | Grand Line | Zou | [Maki Maki no Mi]
+Inuarashi | Male | Mokomo Dukedom | None | Observation + Armament | B 0 | 5m11 | Grand Line | Zou
+Nekomamushi | Male | Mokomo Dukedom | None | Observation + Armament | B 0 | 5m22 | Grand Line | Zou
+Pedro | Male | Mokomo Dukedom | None | Observation + Armament | B 382M | 2m33 | Grand Line | Zou
+Wanda | Female | Mokomo Dukedom | None | None | B 0 | 1m81 | Grand Line | Zou
+Carrot | Female | Mokomo Dukedom | None | None | B 0 | 1m61 | Grand Line | Zou
+
+-- Whole Cake Island Arc --
+Vinsmoke Judge | Male | Vinsmoke Family | None | Armament | B 0 | 2m72 | North Blue | Whole Cake Island
+Vinsmoke Reiju | Female | Vinsmoke Family | None | None | B 0 | 1m73 | North Blue | Whole Cake Island
+Charlotte Katakuri | Male | Big Mom Pirates | Paramecia | Observation + Armament + Conqueror's | B 1.1B | 5m09 | Grand Line | Whole Cake Island | [Mochi Mochi no Mi]
+Charlotte Perospero | Male | Big Mom Pirates | Paramecia | Observation + Armament | B 700M | 3m33 | Grand Line | Whole Cake Island | [Pero Pero no Mi]
+Charlotte Brulee | Female | Big Mom Pirates | Paramecia | None | B 0 | 3m50 | Grand Line | Whole Cake Island | [Mira Mira no Mi]
+Charlotte Mont d'Or | Male | Big Mom Pirates | Paramecia | None | B 120M | 2m60 | Grand Line | Whole Cake Island | [Buku Buku no Mi]
+Morgans | Male | World Economy News Paper | Zoan | None | B 0 | 3m05 | Grand Line | Whole Cake Island | [Tori Tori no Mi, Model: Albatross]
+Charlotte Chiffon | Female | Fire Tank Pirates | None | None | B 0 | 2m15 | Grand Line | Whole Cake Island
+
+WANO COUNTRY SAGA
+
+-- Wano Country Arc --
+Yamato | Female | Ninja-Pirate-Mink-Samurai Alliance | Zoan | Observation + Armament + Conqueror's | B 0 | 2m63 | Unknown | Wano Country | [Inu Inu no Mi, Model: Okuchi no Makami]
+Kurozumi Tama | Female | Kurozumi Family | Paramecia | None | B 0 | 1m08 | Grand Line | Wano Country | [Kibi Kibi no Mi]
+Kozuki Oden | Male | Kozuki Family | None | Observation + Armament + Conqueror's | B 0 | 3m82 | Grand Line | Wano Country
+Kozuki Hiyori | Female | Kozuki Family | None | None | B 0 | 1m70 | Grand Line | Wano Country
+Kikunojo | Female | Kozuki Family | None | Observation + Armament | B 0 | 2m87 | Grand Line | Wano Country
+Denjiro | Male | Kozuki Family | None | Observation + Armament | B 0 | 3m06 | Grand Line | Wano Country
+Kawamatsu | Male | Kozuki Family | None | Observation + Armament | B 0 | 2m71 | Grand Line | Wano Country
+Ashura Doji | Male | Mt. Atama Thieves | None | Observation + Armament | B 0 | 5m44 | Grand Line | Wano Country
+Ulti | Female | Beasts Pirates | Zoan | Observation + Armament | B 400M | 1m73 | Grand Line | Wano Country | [Ryu Ryu no Mi, Model: Pachycephalosaurus]

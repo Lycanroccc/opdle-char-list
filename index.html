@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OnePiecedle Character List</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>OnePiecedle Character List</h1>
+    <button id="themeToggle" class="theme-toggle" type="button">Light Mode</button>
+  </header>
+
+  <main>
+    <div class="controls">
+      <input
+        id="searchBox"
+        type="text"
+        placeholder="Search name, affiliation, devil fruit, haki, bounty, height, origin, arc, gender..."
+        autocomplete="off"
+      />
+
+      <div class="controls-row">
+        <label for="sortSelect">Sort by:</label>
+        <select id="sortSelect">
+          <option value="firstArc" selected>First Arc</option>
+          <option value="affiliation">Affiliation</option>
+          <option value="devilFruitType">Devil Fruit Type</option>
+          <option value="haki">Haki</option>
+          <option value="devilFruit">Devil Fruit</option>
+          <option value="height">Height</option>
+          <option value="bounty">Bounty</option>
+          <option value="origin">Origin</option>
+        </select>
+
+        <div class="view-toggle">
+          <button id="viewClean" class="view-btn active" type="button">Clean View</button>
+          <button id="viewLine" class="view-btn" type="button">OPdle Line View</button>
+        </div>
+      </div>
+
+      <div id="resultCount" class="result-count"></div>
+    </div>
+
+    <div id="characterList" class="character-list"></div>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
