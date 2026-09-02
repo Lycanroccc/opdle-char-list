@@ -37,7 +37,7 @@ const MASTER_IMPORTANCE = [
   "Dracule Mihawk", "Buggy", "Crocodile (Mr.0)", "Daz Bones", "Galdino (Mr.3)",
   // Marines
   "Sengoku", "Monkey D. Garp", "Sakazuki (Akainu)", "Borsalino (Kizaru)", "Smoker", "Tashigi",
-  "Koby", "Issho", "Donquixote Rosinante (Corazon)", "Bellemere",
+  "Koby", "Issho (Fujitora)", "Donquixote Rosinante (Corazon)", "Bellemere",
   // CP0
   "Rob Lucci", "Kaku", "Kalifa", "Blueno", "Jabra", "Spandam",
   // Kozuki Family

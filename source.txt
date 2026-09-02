@@ -163,7 +163,7 @@ Kyros | Male | Riku Family | None | None | B 0 | 2m98 | Grand Line | Dressrosa
 Viola (Violet) | Female | Riku Family | Paramecia | None | B 0 | 1m78 | Grand Line | Dressrosa | [Giro Giro no Mi]
 Cavendish | Male | Beautiful Pirates | None | Observation + Armament | B 330M | 2m08 | Grand Line | Dressrosa
 Donquixote Rosinante (Corazon) | Male | Marines | Paramecia | None | B 0 | 2m93 | Red Line | Dressrosa | [Nagi Nagi no Mi]
-Issho | Male | Marines | Paramecia | Observation + Armament | B 3B | 2m70 | Grand Line | Dressrosa | [Zushi Zushi no Mi]
+Issho (Fujitora) | Male | Marines | Paramecia | Observation + Armament | B 3B | 2m70 | Grand Line | Dressrosa | [Zushi Zushi no Mi]
 Pica | Male | Donquixote Pirates | Paramecia | Observation + Armament | B 99M | 4m70 | North Blue | Dressrosa | [Ishi Ishi no Mi]
 Diamante | Male | Donquixote Pirates | Paramecia | Observation + Armament | B 99M | 5m25 | North Blue | Dressrosa | [Hira Hira no Mi]
 Senor Pink | Male | Donquixote Pirates | Paramecia | None | B 58M | 2m44 | North Blue | Dressrosa | [Sui Sui no Mi]
