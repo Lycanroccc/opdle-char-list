@@ -17,7 +17,7 @@ const MASTER_IMPORTANCE = [
   // Whitebeard Pirates
   "Edward Newgate (Whitebeard)", "Marco", "Portgas D. Ace",
   // Blackbeard Pirates
-  "Marshall D. Teach (Blackbeard)", "Jesus Burgess", "Kuzan",
+  "Marshall D. Teach (Blackbeard)", "Jesus Burgess", "Kuzan (Aokiji)",
   // Big Mom Pirates
   "Charlotte Linlin (Big Mom)", "Charlotte Katakuri", "Charlotte Perospero",
   "Charlotte Brulee", "Charlotte Mont d'Or", "Charlotte Pudding", "Pekoms",
