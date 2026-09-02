@@ -4,7 +4,7 @@ let currentSort = 'firstArc';
 
 
 
-/* liste de "l'ordre d'apparition" */
+/* liste de l'ordre d'affichage */
    
 const MASTER_IMPORTANCE = [
   // Straw Hat Pirates
@@ -24,9 +24,9 @@ const MASTER_IMPORTANCE = [
   // Beasts Pirates
   "Kaido", "Ulti",
   // Donquixote Pirates
-  "Donquixote Doflamingo", "Diamante", "Pica", "Senor Pink", "Bellamy", "Monet",
+  "Donquixote Doflamingo (Joker)", "Diamante", "Pica", "Senor Pink", "Bellamy", "Monet",
   // Revolutionary Army
-  "Monkey D. Dragon", "Sabo", "Bartholomew Kuma", "Emporio Ivankov", "Koala",
+  "Monkey D. Dragon", "Sabo", "Bartholomew Kuma (PX-0)", "Emporio Ivankov", "Koala",
   // Heart Pirates
   "Trafalgar Law", "Bepo",
   // Kid Pirates
@@ -34,15 +34,15 @@ const MASTER_IMPORTANCE = [
   // Kuja
   "Boa Hancock",
   // Cross Guild
-  "Dracule Mihawk", "Buggy", "Crocodile", "Daz Bones", "Galdino",
+  "Dracule Mihawk", "Buggy", "Crocodile (Mr.0)", "Daz Bones", "Galdino (Mr.3)",
   // Marines
-  "Sengoku", "Monkey D. Garp", "Sakazuki", "Borsalino", "Smoker", "Tashigi",
-  "Koby", "Issho", "Donquixote Rosinante", "Bellemere",
+  "Sengoku", "Monkey D. Garp", "Sakazuki (Akainu)", "Borsalino (Kizaru)", "Smoker", "Tashigi",
+  "Koby", "Issho", "Donquixote Rosinante (Corazon)", "Bellemere",
   // CP0
   "Rob Lucci", "Kaku", "Kalifa", "Blueno", "Jabra", "Spandam",
   // Kozuki Family
-  "Kozuki Oden", "Kin'emon", "Kozuki Momonosuke", "Kozuki Hiyori",
-  "Kikunojo", "Denjiro", "Kawamatsu", "Raizo",
+  "Kozuki Oden", "Kin'emon", "Kozuki Momonosuke", "Kozuki Hiyori (Komurasaki)",
+  "Kikunojo (O-Kiku)", "Denjiro", "Kawamatsu", "Raizo",
   // Mokomo Dukedom
   "Inuarashi", "Nekomamushi", "Pedro", "Wanda", "Carrot",
   // Vinsmoke Family

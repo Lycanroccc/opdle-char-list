@@ -2,8 +2,6 @@ import json
 import re
 
 def parse_bounty(raw):
-    """Convert a bounty string like 'B 3B', '฿3B', 'B 500M', 'B 0', 'B 1K', 'B 500'
-    into (display_text, numeric_value)."""
     raw = raw.strip()
     # currency marker to ฿
     m = re.match(r'^[฿B]\s*([\d.]+)\s*([KMB]?)$', raw)
@@ -17,7 +15,6 @@ def parse_bounty(raw):
     return display, numeric
 
 def parse_height(raw):
-    """Convert '1m74' -> 174.0 cm, '90cm' -> 90.0 cm, '21m30' -> 2130.0 cm, '67m' -> 6700.0 cm."""
     raw = raw.strip()
     if raw.endswith('cm'):
         return float(raw[:-2])

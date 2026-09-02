@@ -519,7 +519,7 @@
     "orderIndex": 27
   },
   {
-    "name": "Crocodile",
+    "name": "Crocodile (Mr.0)",
     "gender": "Male",
     "affiliation": "Cross Guild",
     "devilFruitType": "Logia",
@@ -539,7 +539,7 @@
     "orderIndex": 28
   },
   {
-    "name": "Galdino",
+    "name": "Galdino (Mr.3)",
     "gender": "Male",
     "affiliation": "Cross Guild",
     "devilFruitType": "Paramecia",
@@ -556,7 +556,7 @@
     "orderIndex": 29
   },
   {
-    "name": "Bentham",
+    "name": "Bentham (Mr.2)",
     "gender": "Male",
     "affiliation": "Newkama Land",
     "devilFruitType": "Paramecia",
@@ -700,7 +700,7 @@
     "orderIndex": 37
   },
   {
-    "name": "Bartholomew Kuma",
+    "name": "Bartholomew Kuma (PX-0)",
     "gender": "Male",
     "affiliation": "Revolutionary Army",
     "devilFruitType": "Paramecia",
@@ -800,7 +800,7 @@
     "orderIndex": 42
   },
   {
-    "name": "Donquixote Doflamingo",
+    "name": "Donquixote Doflamingo (Joker)",
     "gender": "Male",
     "affiliation": "Donquixote Pirates",
     "devilFruitType": "Paramecia",
@@ -911,7 +911,7 @@
     "orderIndex": 48
   },
   {
-    "name": "Kuzan",
+    "name": "Kuzan (Aokiji)",
     "gender": "Male",
     "affiliation": "Blackbeard Pirates",
     "devilFruitType": "Logia",
@@ -1096,7 +1096,7 @@
     "orderIndex": 58
   },
   {
-    "name": "Sakazuki",
+    "name": "Sakazuki (Akainu)",
     "gender": "Male",
     "affiliation": "Marines",
     "devilFruitType": "Logia",
@@ -1354,7 +1354,7 @@
     "orderIndex": 72
   },
   {
-    "name": "Borsalino",
+    "name": "Borsalino (Kizaru)",
     "gender": "Male",
     "affiliation": "Marines",
     "devilFruitType": "Logia",
@@ -1560,7 +1560,7 @@
     "orderIndex": 83
   },
   {
-    "name": "Shirahoshi",
+    "name": "Shirahoshi (Poseidon)",
     "gender": "Female",
     "affiliation": "Neptune Family",
     "devilFruitType": "None",
@@ -1797,7 +1797,7 @@
     "orderIndex": 96
   },
   {
-    "name": "Viola",
+    "name": "Viola (Violet)",
     "gender": "Female",
     "affiliation": "Riku Family",
     "devilFruitType": "Paramecia",
@@ -1834,7 +1834,7 @@
     "orderIndex": 98
   },
   {
-    "name": "Donquixote Rosinante",
+    "name": "Donquixote Rosinante (Corazon)",
     "gender": "Male",
     "affiliation": "Marines",
     "devilFruitType": "Paramecia",
@@ -2287,7 +2287,7 @@
     "orderIndex": 122
   },
   {
-    "name": "Kozuki Hiyori",
+    "name": "Kozuki Hiyori (Komurasaki)",
     "gender": "Female",
     "affiliation": "Kozuki Family",
     "devilFruitType": "None",
@@ -2304,7 +2304,7 @@
     "orderIndex": 123
   },
   {
-    "name": "Kikunojo",
+    "name": "Kikunojo (O-Kiku)",
     "gender": "Female",
     "affiliation": "Kozuki Family",
     "devilFruitType": "None",
@@ -2364,7 +2364,7 @@
     "orderIndex": 126
   },
   {
-    "name": "Ashura Doji",
+    "name": "Ashura Doji (Shuntenmaru)",
     "gender": "Male",
     "affiliation": "Mt. Atama Thieves",
     "devilFruitType": "None",
