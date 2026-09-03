@@ -312,26 +312,26 @@ function render() {
 
   const isSearching = query.length > 0;
 
-  if (isSearching) {
-    html = sorted.map(renderCharacter).join('');
-  } else if (currentSort === 'firstArc') {
-    
-    let lastSaga = null;
-    let lastArc = null;
-    sorted.forEach(c => {
-      if (c.saga !== lastSaga) {
-        html += `<div class="saga-heading">${escapeHtml(c.saga)}</div>`;
-        lastSaga = c.saga;
-        lastArc = null; 
-      }
-      if (c.arc !== lastArc) {
-        html += `<div class="arc-heading">${escapeHtml(c.arc)}</div>`;
-        lastArc = c.arc;
-      }
-      html += renderCharacter(c);
-    });
+  if (currentSort === 'firstArc') {
+    if (isSearching) {
+      html = sorted.map(renderCharacter).join('');
+    } else {
+      let lastSaga = null;
+      let lastArc = null;
+      sorted.forEach(c => {
+        if (c.saga !== lastSaga) {
+          html += `<div class="saga-heading">${escapeHtml(c.saga)}</div>`;
+          lastSaga = c.saga;
+          lastArc = null;
+        }
+        if (c.arc !== lastArc) {
+          html += `<div class="arc-heading">${escapeHtml(c.arc)}</div>`;
+          lastArc = c.arc;
+        }
+        html += renderCharacter(c);
+      });
+    }
   } else {
-    
     let lastGroup = Symbol('init');
     sorted.forEach(c => {
       const label = groupLabelFor(currentSort, c);
