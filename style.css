@@ -1,3 +1,10 @@
+::selection {
+    /* background-color: #ffa31a;
+    color: #1b1b1b; */
+    background: #c9a45c;
+    color: #332414;
+}
+
 :root {
   --bg: #121212;
   --bg-alt: #151515;
