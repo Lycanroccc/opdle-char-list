@@ -26,7 +26,7 @@ const MASTER_IMPORTANCE = [
   // Donquixote Pirates
   "Donquixote Doflamingo (Joker)", "Diamante", "Pica", "Senor Pink", "Bellamy", "Monet",
   // Revolutionary Army
-  "Monkey D. Dragon", "Sabo", "Bartholomew Kuma (PX-0)", "Emporio Ivankov", "Koala",
+  "Monkey D. Dragon", "Sabo", "Bartholomew Kuma", "Emporio Ivankov", "Koala",
   // Heart Pirates
   "Trafalgar Law", "Bepo",
   // Kid Pirates
@@ -34,7 +34,7 @@ const MASTER_IMPORTANCE = [
   // Kuja
   "Boa Hancock",
   // Cross Guild
-  "Dracule Mihawk", "Buggy", "Crocodile (Mr.0)", "Daz Bones", "Galdino (Mr.3)",
+  "Dracule Mihawk", "Buggy", "Crocodile", "Daz Bones", "Galdino (Mr.3)",
   // Marines
   "Sengoku", "Monkey D. Garp", "Sakazuki (Akainu)", "Borsalino (Kizaru)", "Smoker", "Tashigi",
   "Koby", "Issho (Fujitora)", "Donquixote Rosinante (Corazon)", "Bellemere",
@@ -50,7 +50,7 @@ const MASTER_IMPORTANCE = [
   // Kurozumi Family
   "Kurozumi Kanjuro", "Kurozumi Tama",
   // Thriller Bark Pirates
-  "Gecko Moria", "Hogback", "Shimotsu Ryuma", "Oars",
+  "Gecko Moria", "Hogback", "Shimotsuki Ryuma", "Oars",
   // Misc notable
   "Yamato"
 ];
@@ -73,6 +73,26 @@ const ORIGIN_ORDER = [
 function orderIndexOf(list, value) {
   const i = list.indexOf(value);
   return i === -1 ? list.length : i;
+}
+
+const UNKNOWN_BOUNTY_NAMES = new Set(["Monkey D. Dragon", "Silvers Rayleigh", "Koala", "Benn Beckman", "Zeff"]);
+const UNKNOWN_CROSS_GUILD_BOUNTY_NAMES = new Set(["Smoker", "Sengoku", "Tashigi"]);
+
+function bountyGroupRank(character) {
+  if (character.bountyValue > 0) return 0;
+  if (UNKNOWN_BOUNTY_NAMES.has(character.name)) return 1;
+  if (UNKNOWN_CROSS_GUILD_BOUNTY_NAMES.has(character.name)) return 2;
+  return 3;
+}
+
+function bountyGroupLabel(rank) {
+  const map = {
+    0: "Has a Bounty",
+    1: "Unknown Bounty",
+    2: "Unknown Cross Guild Bounty",
+    3: "No Bounty"
+  };
+  return map[rank];
 }
 
 function hakiScore(character) {
@@ -165,7 +185,9 @@ function getComparator(sortMode, characters) {
 
     case 'bounty':
       return (a, b) => {
-        if (b.bountyValue !== a.bountyValue) return b.bountyValue - a.bountyValue;
+        const ga = bountyGroupRank(a), gb = bountyGroupRank(b);
+        if (ga !== gb) return ga - gb;
+        if (ga === 0 && b.bountyValue !== a.bountyValue) return b.bountyValue - a.bountyValue;
         return importanceRank(a) - importanceRank(b);
       };
 
@@ -197,6 +219,8 @@ function groupLabelFor(sortMode, character) {
       return character.devilFruitName !== '∅' ? 'Has Devil Fruit' : 'No Devil Fruit';
     case 'origin':
       return character.origin;
+    case 'bounty':
+      return bountyGroupLabel(bountyGroupRank(character));
     default:
       return null; // firstArc handled separately (two-level saga/arc), height/bounty have no headings
   }
@@ -280,7 +304,7 @@ function render() {
   countEl.textContent = `${sorted.length} character${sorted.length === 1 ? '' : 's'} shown`;
 
   if (sorted.length === 0) {
-    listEl.innerHTML = `<div class="no-results">No characters match your search.</div>`;
+    listEl.innerHTML = `<div class="no-results">The void... (・・ )</div>`;
     return;
   }
 
@@ -330,11 +354,11 @@ function initTheme() {
   const toggle = document.getElementById('themeToggle');
   if (saved === 'light') {
     document.body.classList.add('light');
-    toggle.textContent = 'Dark Mode';
+    toggle.textContent = 'Zekrom';
   }
   toggle.addEventListener('click', () => {
     const isLight = document.body.classList.toggle('light');
-    toggle.textContent = isLight ? 'Dark Mode' : 'Light Mode';
+    toggle.textContent = isLight ? 'Zekrom' : 'Reshiram';
     localStorage.setItem('oplde-theme', isLight ? 'light' : 'dark');
   });
 }
@@ -378,3 +402,32 @@ async function init() {
 }
 
 init();
+
+
+
+/*Moyennement important*/
+
+function colorizeText(text) {
+  let coloredText = '';
+  let currentIndex = 0;
+  function getNextColor() {
+    const colors = [
+      [255, 0, 0],
+      [0, 255, 0],
+      [0, 0, 255]
+    ];
+    currentIndex = (currentIndex + 1) % colors.length;
+    return colors[currentIndex];
+  }
+  function updateColors() {
+    for (let i = 0; i < text.length; i++) {
+      const randomColor = getNextColor();
+      coloredText += `\x1b[38;2;${randomColor[0]};${randomColor[1]};${randomColor[2]}m${text[i]}\x1b[0m`;
+    }
+    console.clear();
+    console.log(coloredText);
+    coloredText = '';
+  }
+  setInterval(updateColors, 500);
+}
+colorizeText("ඞ".repeat(50));

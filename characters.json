@@ -93,7 +93,7 @@
       "Armament"
     ],
     "hakiRaw": "Observation + Armament",
-    "bounty": "฿500M",
+    "bounty": "฿500M (Cross Guild)",
     "bountyValue": 500000000.0,
     "height": "1m67",
     "heightCm": 167,
@@ -112,7 +112,7 @@
       "Armament"
     ],
     "hakiRaw": "Armament",
-    "bounty": "฿0",
+    "bounty": "฿0 (Unknown)",
     "bountyValue": 0.0,
     "height": "2m06",
     "heightCm": 206,
@@ -167,7 +167,7 @@
       "Conqueror's"
     ],
     "hakiRaw": "Observation + Armament + Conqueror's",
-    "bounty": "฿0",
+    "bounty": "฿0 (Unknown)",
     "bountyValue": 0.0,
     "height": "1m88",
     "heightCm": 188,
@@ -257,7 +257,7 @@
     "devilFruitType": "None",
     "haki": [],
     "hakiRaw": "None",
-    "bounty": "฿0",
+    "bounty": "฿0 (Unknown)",
     "bountyValue": 0.0,
     "height": "1m89",
     "heightCm": 189,
@@ -332,7 +332,7 @@
       "Conqueror's"
     ],
     "hakiRaw": "Observation + Armament + Conqueror's",
-    "bounty": "฿3B",
+    "bounty": "฿3B (Cross Guild)",
     "bountyValue": 3000000000.0,
     "height": "2m87",
     "heightCm": 287,
@@ -400,7 +400,7 @@
     "devilFruitType": "None",
     "haki": [],
     "hakiRaw": "None",
-    "bounty": "฿0",
+    "bounty": "฿0 (Unknown)",
     "bountyValue": 0.0,
     "height": "2m56",
     "heightCm": 256,
@@ -420,7 +420,7 @@
       "Armament"
     ],
     "hakiRaw": "Observation + Armament",
-    "bounty": "฿0",
+    "bounty": "฿0 (Cross Guild: At least ★★★★★)",
     "bountyValue": 0.0,
     "height": "2m09",
     "heightCm": 209,
@@ -440,7 +440,7 @@
       "Armament"
     ],
     "hakiRaw": "Observation + Armament",
-    "bounty": "฿0",
+    "bounty": "฿0 (Cross Guild: At least ★)",
     "bountyValue": 0.0,
     "height": "1m70",
     "heightCm": 170,
@@ -519,7 +519,7 @@
     "orderIndex": 27
   },
   {
-    "name": "Crocodile (Mr.0)",
+    "name": "Crocodile",
     "gender": "Male",
     "affiliation": "Cross Guild",
     "devilFruitType": "Logia",
@@ -700,7 +700,7 @@
     "orderIndex": 37
   },
   {
-    "name": "Bartholomew Kuma (PX-0)",
+    "name": "Bartholomew Kuma",
     "gender": "Male",
     "affiliation": "Revolutionary Army",
     "devilFruitType": "Paramecia",
@@ -729,7 +729,7 @@
       "Conqueror's"
     ],
     "hakiRaw": "Observation + Armament + Conqueror's",
-    "bounty": "฿0",
+    "bounty": "฿0 (Cross Guild: Unknown)",
     "bountyValue": 0.0,
     "height": "2m78",
     "heightCm": 278,
@@ -920,7 +920,7 @@
       "Armament"
     ],
     "hakiRaw": "Observation + Armament",
-    "bounty": "฿0",
+    "bounty": "฿0 (under consideration)",
     "bountyValue": 0.0,
     "height": "2m98",
     "heightCm": 298,
@@ -1105,7 +1105,7 @@
       "Armament"
     ],
     "hakiRaw": "Observation + Armament",
-    "bounty": "฿5B",
+    "bounty": "฿5B (Cross Guild)",
     "bountyValue": 5000000000.0,
     "height": "3m06",
     "heightCm": 306,
@@ -1204,7 +1204,7 @@
     "orderIndex": 64
   },
   {
-    "name": "Shimotsu Ryuma",
+    "name": "Shimotsuki Ryuma",
     "gender": "Male",
     "affiliation": "Thriller Bark Pirates",
     "devilFruitType": "None",
@@ -1363,7 +1363,7 @@
       "Armament"
     ],
     "hakiRaw": "Observation + Armament",
-    "bounty": "฿3B",
+    "bounty": "฿3B (Cross Guild)",
     "bountyValue": 3000000000.0,
     "height": "3m02",
     "heightCm": 302,
@@ -1383,7 +1383,7 @@
       "Armament"
     ],
     "hakiRaw": "Observation + Armament",
-    "bounty": "฿222M",
+    "bounty": "฿222M (Cross Guild)",
     "bountyValue": 222000000.0,
     "height": "2m33",
     "heightCm": 233,
@@ -1585,7 +1585,7 @@
     "devilFruitType": "None",
     "haki": [],
     "hakiRaw": "None",
-    "bounty": "฿0",
+    "bounty": "฿0 (Unknown)",
     "bountyValue": 0.0,
     "height": "1m60",
     "heightCm": 160,
@@ -1860,7 +1860,7 @@
       "Armament"
     ],
     "hakiRaw": "Observation + Armament",
-    "bounty": "฿3B",
+    "bounty": "฿3B (Cross Guild)",
     "bountyValue": 3000000000.0,
     "height": "2m70",
     "heightCm": 270,

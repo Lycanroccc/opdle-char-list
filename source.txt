@@ -47,7 +47,7 @@ Nico Robin | Female | Straw Hat Pirates | Paramecia | None | B 930M | 1m88 | Wes
 -- Little Garden Arc --
 Brogy | Male | Giant Warrior Pirates | None | None | B 1.8B | 21m30 | Grand Line | Little Garden
 Dorry | Male | Giant Warrior Pirates | None | None | B 1.8B | 22m60 | Grand Line | Little Garden
-Crocodile (Mr.0) | Male | Cross Guild | Logia | Observation + Armament | B 2B | 2m53 | Grand Line | Little Garden | [Suna Suna no Mi]
+Crocodile | Male | Cross Guild | Logia | Observation + Armament | B 2B | 2m53 | Grand Line | Little Garden | [Suna Suna no Mi]
 Galdino (Mr.3) | Male | Cross Guild | Paramecia | None | B 24M | 1m79 | South Blue | Little Garden | [Doru Doru no Mi]
 Bentham (Mr.2) | Male | Newkama Land | Paramecia | None | B 32M | 2m38 | East Blue | Little Garden | [Mane Mane no Mi]
 
@@ -65,7 +65,7 @@ Daz Bones | Male | Cross Guild | Paramecia | None | B 75M | 2m12 | West Blue | A
 SKY ISLAND SAGA
 
 -- Jaya Arc --
-Bartholomew Kuma (PX-0) | Male | Revolutionary Army | Paramecia | Armament | B 296M | 6m89 | South Blue | Jaya | [Nikyu Nikyu no Mi]
+Bartholomew Kuma | Male | Revolutionary Army | Paramecia | Armament | B 296M | 6m89 | South Blue | Jaya | [Nikyu Nikyu no Mi]
 Sengoku | Male | Marines | Zoan | Observation + Armament + Conqueror's | B 0 | 2m78 | South Blue | Jaya | [Hito Hito no Mi, Model: Daibutsu]
 Marco | Male | Whitebeard Pirates | Zoan | Observation + Armament | B 1.4B | 2m03 | Grand Line | Jaya | [Tori Tori no Mi, Model: Phoenix]
 Marshall D. Teach (Blackbeard) | Male | Blackbeard Pirates | Logia | Observation + Armament | B 4B | 3m44 | Grand Line | Jaya | [Yami Yami no Mi] / [Gura Gura no Mi]
@@ -106,7 +106,7 @@ Brook | Male | Straw Hat Pirates | Paramecia | None | B 383M | 2m77 | West Blue 
 Perona | Female | Dracule Mihawk | Paramecia | None | B 0 | 1m60 | West Blue | Thriller Bark | [Horo Horo no Mi]
 Gecko Moria | Male | Thriller Bark Pirates | Paramecia | None | B 320M | 6m92 | West Blue | Thriller Bark | [Kage Kage no Mi]
 Hogback | Male | Thriller Bark Pirates | None | None | B 0 | 2m23 | West Blue | Thriller Bark
-Shimotsu Ryuma | Male | Thriller Bark Pirates | None | Armament | B 0 | 1m79 | Grand Line | Thriller Bark
+Shimotsuki Ryuma | Male | Thriller Bark Pirates | None | Armament | B 0 | 1m79 | Grand Line | Thriller Bark
 Oars | Male | Thriller Bark Pirates | None | None | B 0 | 67m | North Blue | Thriller Bark
 
 SUMMIT WAR SAGA

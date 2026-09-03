@@ -32,6 +32,24 @@ def parse_haki(raw):
         return []
     return [h.strip() for h in raw.split('+')]
 
+BOUNTY_NOTES = {
+    "Benn Beckman": "Unknown",
+    "Silvers Rayleigh": "Unknown",
+    "Zeff": "Unknown",
+    "Monkey D. Dragon": "Unknown",
+    "Koala": "Unknown",
+    "Smoker": "Cross Guild: At least ★★★★★",
+    "Tashigi": "Cross Guild: At least ★",
+    "Sengoku": "Cross Guild: Unknown",
+    "Kuzan (Aokiji)": "under consideration",
+    "Koby": "Cross Guild",
+    "Monkey D. Garp": "Cross Guild",
+    "Sakazuki (Akainu)": "Cross Guild",
+    "Borsalino (Kizaru)": "Cross Guild",
+    "Issho (Fujitora)": "Cross Guild",
+    "X Drake": "Cross Guild",
+}
+
 SAGA_ORDER = []
 characters = []
 current_saga = None
@@ -63,6 +81,8 @@ for line in lines:
     dfn_raw = parts[9] if len(parts) > 9 else None
 
     bounty_display, bounty_value = parse_bounty(bounty_raw)
+    if name in BOUNTY_NOTES:
+        bounty_display = f"{bounty_display} ({BOUNTY_NOTES[name]})"
     height_cm = parse_height(height_raw)
     haki_list = parse_haki(haki_raw)
     devil_fruit_name = dfn_raw if dfn_raw else "∅"
