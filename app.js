@@ -254,6 +254,99 @@ function fieldRow(label, value) {
   return `<div class="field-label">${label}</div><div class="field-value">${escapeHtml(value)}</div>`;
 }
 
+const FRUIT_TRANSLATIONS = {
+  "Mera Mera no Mi": "Flame-Flame Fruit",
+  "Yami Yami no Mi": "Dark-Dark Fruit",
+  "Hie Hie no Mi": "Ice-Ice Fruit",
+  "Yuki Yuki no Mi": "Snow-Snow Fruit",
+  "Suna Suna no Mi": "Sand-Sand Fruit",
+  "Magu Magu no Mi": "Mag-Mag Fruit",
+  "Pika Pika no Mi": "Glint-Glint Fruit",
+  "Moku Moku no Mi": "Plume-Plume Fruit",
+  "Goro Goro no Mi": "Rumble-Rumble Fruit",
+  "Numa Numa no Mi": "Swamp-Swamp Fruit",
+  "Gasu Gasu no Mi": "Gas-Gas Fruit",
+  "Gomu Gomu no Mi": "Gum-Gum Fruit",
+  "Hito Hito no Mi, Model: Nika": "Human-Human Fruit, Model: Nika",
+  "Hito Hito no Mi": "Human-Human Fruit",
+  "Tori Tori no Mi, Model: Phoenix": "Bird-Bird Fruit, Model: Phoenix",
+  "Kame Kame no Mi": "Turtle-Turtle Fruit",
+  "Uo Uo no Mi, Model: Seiryu": "Fish-Fish Fruit, Model: Azure Dragon",
+  "Ryu Ryu no Mi, Model: Pachycephalosaurus": "Dragon-Dragon Fruit, Model: Pachycephalosaurus",
+  "Hito Hito no Mi, Model: Daibutsu": "Human-Human Fruit, Model: Buddha",
+  "Neko Neko no Mi, Model: Leopard": "Cat-Cat Fruit, Model: Leopard",
+  "Ushi Ushi no Mi, Model: Giraffe": "Ox-Ox Fruit, Model: Giraffe",
+  "Inu Inu no Mi, Model: Wolf": "Dog-Dog Fruit, Model: Wolf",
+  "Inu Inu no Mi, Model: Okuchi no Makami": "Dog-Dog Fruit, Model: Okuchi-no-Makami",
+  "Tori Tori no Mi, Model: Falcon": "Bird-Bird Fruit, Model: Falcon",
+  "Ryu Ryu no Mi, Model: Allosaurus": "Dragon-Dragon Fruit, Model: Allosaurus",
+  "Tori Tori no Mi, Model: Albatross": "Bird-Bird Fruit, Model: Albatross",
+  "Hana Hana no Mi": "Flower-Flower Fruit",
+  "Yomi Yomi no Mi": "Revive-Revive Fruit",
+  "Gura Gura no Mi": "Quake-Quake Fruit",
+  "Riki Riki no Mi": "Strong-Strong Fruit",
+  "Soru Soru no Mi": "Soul-Soul Fruit",
+  "Mochi Mochi no Mi": "Mochi-Mochi Fruit",
+  "Pero Pero no Mi": "Lick-Lick Fruit",
+  "Mira Mira no Mi": "Mirror-Mirror Fruit",
+  "Buku Buku no Mi": "Book-Book Fruit",
+  "Memo Memo no Mi": "Memo-Memo Fruit",
+  "Ito Ito no Mi": "String-String Fruit",
+  "Hira Hira no Mi": "Ripple-Ripple Fruit",
+  "Ishi Ishi no Mi": "Stone-Stone Fruit",
+  "Sui Sui no Mi": "Swim-Swim Fruit",
+  "Bane Bane no Mi": "Spring-Spring Fruit",
+  "Nikyu Nikyu no Mi": "Paw-Paw Fruit",
+  "Horu Horu no Mi": "Horm-Horm Fruit",
+  "Ope Ope no Mi": "Op-Op Fruit",
+  "Jiki Jiki no Mi": "Magnet-Magnet Fruit",
+  "Mero Mero no Mi": "Love-Love Fruit",
+  "Bara Bara no Mi": "Chop-Chop Fruit",
+  "Supa Supa no Mi": "Dice-Dice Fruit",
+  "Doru Doru no Mi": "Wax-Wax Fruit",
+  "Zushi Zushi no Mi": "Press-Press Fruit",
+  "Nagi Nagi no Mi": "Calm-Calm Fruit",
+  "Awa Awa no Mi": "Bubble-Bubble Fruit",
+  "Doa Doa no Mi": "Door-Door Fruit",
+  "Fuku Fuku no Mi": "Garb-Garb Fruit",
+  "Maki Maki no Mi": "Scroll-Scroll Fruit",
+  "Fude Fude no Mi": "Brush-Brush Fruit",
+  "Kibi Kibi no Mi": "Millet-Millet Fruit",
+  "Kage Kage no Mi": "Shadow-Shadow Fruit",
+  "Mane Mane no Mi": "Clone-Clone Fruit",
+  "Noro Noro no Mi": "Slow-Slow Fruit",
+  "Horo Horo no Mi": "Hollow-Hollow Fruit",
+  "Toshi Toshi no Mi": "Age-Age Fruit",
+  "Wara Wara no Mi": "Straw-Straw Fruit",
+  "Shiro Shiro no Mi": "Castle-Castle Fruit",
+  "Doku Doku no Mi": "Venom-Venom Fruit",
+  "Bari Bari no Mi": "Barrier-Barrier Fruit",
+  "Giro Giro no Mi": "Glare-Glare Fruit"
+};
+
+function formatDevilFruitCell(raw) {
+  if (raw === '∅') return escapeHtml('∅');
+  const segments = raw.split(/(-->|\/)/);
+  let html = '';
+  segments.forEach(seg => {
+    const trimmed = seg.trim();
+    if (trimmed === '-->' || trimmed === '/') {
+      const symbol = trimmed === '-->' ? '▼' : '+';
+      html += `<div class="df-connector">${escapeHtml(symbol)}</div>`;
+      return;
+    }
+    const m = trimmed.match(/\[(.*?)\]\s*(\(.*\))?/);
+    if (m) {
+      const jp = m[1].trim();
+      const note = m[2] ? ' ' + m[2] : '';
+      const en = FRUIT_TRANSLATIONS[jp];
+      html += `<div class="df-jp">[${escapeHtml(jp)}]${escapeHtml(note)}</div>`;
+      if (en) html += `<div class="df-en">${escapeHtml(en)}</div>`;
+    }
+  });
+  return html;
+}
+
 function escapeHtml(str) {
   return String(str)
     .replace(/&/g, '&amp;')
@@ -274,7 +367,7 @@ function renderCleanCard(c) {
         ${fieldRow('Height', c.height)}
         ${fieldRow('Origin', c.origin)}
         ${fieldRow('First Arc', c.arc)}
-        ${fieldRow('Devil Fruit Name', c.devilFruitName)}
+        <div class="field-label">Devil Fruit Name</div><div class="field-value">${formatDevilFruitCell(c.devilFruitName)}</div>
       </div>
     </div>
   `;
@@ -304,7 +397,9 @@ function render() {
   countEl.textContent = `${sorted.length} character${sorted.length === 1 ? '' : 's'} shown`;
 
   if (sorted.length === 0) {
-    listEl.innerHTML = `<div class="no-results">The void... (・・ )</div>`;
+    const isLight = document.body.classList.contains('light');
+    const noResultsMessage = isLight ? "Too bright. Can't see anything... (× × )" : 'The void... (・・ )';
+    listEl.innerHTML = `<div class="no-results">${escapeHtml(noResultsMessage)}</div>`;
     return;
   }
 
@@ -352,39 +447,91 @@ function render() {
 function initTheme() {
   const saved = localStorage.getItem('oplde-theme');
   const toggle = document.getElementById('themeToggle');
+  const label = document.getElementById('themeToggleLabel');
+  const caption = toggle.querySelector('.theme-toggle-caption');
+
+  function applyLabel(isLight) {
+    label.textContent = isLight ? 'Zekrom' : 'Reshiram';
+    caption.textContent = isLight ? 'Dark mode' : 'Light mode';
+  }
+
   if (saved === 'light') {
     document.body.classList.add('light');
-    toggle.textContent = 'Zekrom';
+    applyLabel(true);
   }
   toggle.addEventListener('click', () => {
     const isLight = document.body.classList.toggle('light');
-    toggle.textContent = isLight ? 'Zekrom' : 'Reshiram';
+    applyLabel(isLight);
+    render();
     localStorage.setItem('oplde-theme', isLight ? 'light' : 'dark');
   });
 }
 
+const VIEW_KEY = 'oplde-list-view';
+const SEARCH_KEY = 'oplde-list-search';
+const SORT_KEY = 'oplde-list-sort';
+
+function isReloadNavigation() {
+  const entries = performance.getEntriesByType('navigation');
+  if (entries.length > 0) return entries[0].type === 'reload';
+  return !!(performance.navigation && performance.navigation.type === 1);
+}
+
+function applyView(view) {
+  currentView = view;
+  document.getElementById('viewClean').classList.toggle('active', view === 'clean');
+  document.getElementById('viewLine').classList.toggle('active', view === 'line');
+}
+
 function initControls() {
-  document.getElementById('searchBox').addEventListener('input', render);
+  document.getElementById('searchBox').addEventListener('input', (e) => {
+    sessionStorage.setItem(SEARCH_KEY, e.target.value);
+    render();
+  });
 
   document.getElementById('sortSelect').addEventListener('change', (e) => {
     currentSort = e.target.value;
+    sessionStorage.setItem(SORT_KEY, currentSort);
     render();
   });
 
   const cleanBtn = document.getElementById('viewClean');
   const lineBtn = document.getElementById('viewLine');
   cleanBtn.addEventListener('click', () => {
-    currentView = 'clean';
-    cleanBtn.classList.add('active');
-    lineBtn.classList.remove('active');
+    applyView('clean');
+    sessionStorage.setItem(VIEW_KEY, 'clean');
     render();
   });
   lineBtn.addEventListener('click', () => {
-    currentView = 'line';
-    lineBtn.classList.add('active');
-    cleanBtn.classList.remove('active');
+    applyView('line');
+    sessionStorage.setItem(VIEW_KEY, 'line');
     render();
   });
+
+  const savedView = sessionStorage.getItem(VIEW_KEY);
+  applyView(savedView === 'line' ? 'line' : 'clean');
+}
+
+function restoreSearchAndSort() {
+  const searchBox = document.getElementById('searchBox');
+  const sortSelect = document.getElementById('sortSelect');
+
+  if (isReloadNavigation()) {
+    sessionStorage.removeItem(SEARCH_KEY);
+    sessionStorage.removeItem(SORT_KEY);
+    searchBox.value = '';
+    currentSort = 'firstArc';
+    sortSelect.value = 'firstArc';
+    return;
+  }
+
+  const savedSearch = sessionStorage.getItem(SEARCH_KEY);
+  const savedSort = sessionStorage.getItem(SORT_KEY);
+  if (savedSearch !== null) searchBox.value = savedSearch;
+  if (savedSort !== null) {
+    currentSort = savedSort;
+    sortSelect.value = savedSort;
+  }
 }
 
 async function loadData() {
@@ -394,9 +541,30 @@ async function loadData() {
   ALL_CHARACTERS = data;
 }
 
+function updatePracticeHighlight() {
+  const link = document.querySelector('a[href="practice.html"]');
+  if (!link) return;
+  try {
+    const keys = ['oplde-practice-session', 'oplde-devilfruit-session'];
+    for (const key of keys) {
+      const saved = sessionStorage.getItem(key);
+      if (saved) {
+        const data = JSON.parse(saved);
+        if (!data.won && data.tries > 0) {
+          link.classList.add('practice-active');
+          return;
+        }
+      }
+    }
+  } catch (e) {}
+  link.classList.remove('practice-active');
+}
+
 async function init() {
   initTheme();
   initControls();
+  restoreSearchAndSort();
+  updatePracticeHighlight();
   await loadData();
   render();
 }
@@ -405,7 +573,7 @@ init();
 
 
 
-/*Moyennement important*/
+/*test très moyennement important*/
 
 function colorizeText(text) {
   let coloredText = '';

@@ -55,6 +55,49 @@ body {
   word-break: break-word;
 }
 
+.header-buttons {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+a.theme-toggle {
+  text-decoration: none;
+  display: inline-block;
+}
+
+#themeToggle {
+  position: relative;
+}
+
+.theme-toggle-caption {
+  position: absolute;
+  bottom: 2px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.45rem;
+  color: var(--text-dim);
+  font-weight: 400;
+  white-space: nowrap;
+  pointer-events: none;
+}
+
+a.theme-toggle.practice-active {
+  border-color: var(--practice-highlight);
+  color: var(--practice-highlight);
+  box-shadow: 0 0 0 1px var(--practice-highlight);
+}
+
+@media (max-width: 480px) {
+  .site-header h1 {
+    font-size: 0.85rem;
+  }
+  .header-buttons .theme-toggle {
+    padding: 0.4rem 0.55rem;
+    font-size: 0.8rem;
+  }
+}
+
 .theme-toggle,
 .view-btn,
 #sortSelect {
@@ -86,7 +129,7 @@ main {
   z-index: 10;
 }
 
-#searchBox {
+.search-input {
   width: 100%;
   padding: 0.65rem 0.75rem;
   font-size: 1rem;
@@ -165,6 +208,26 @@ main {
   word-break: break-word;
 }
 
+.df-jp {
+  margin-top: 0.15rem;
+}
+
+.df-jp:first-child {
+  margin-top: 0;
+}
+
+.df-en {
+  color: var(--text-dim);
+  font-size: 0.85em;
+  margin-bottom: 0.2rem;
+}
+
+.df-connector {
+  color: var(--text-dim);
+  font-size: 0.8em;
+  margin: 0.1rem 0;
+}
+
 /* Line view */
 .char-line {
   background: var(--bg-alt);
@@ -192,4 +255,278 @@ main {
   .char-card .field-label {
     margin-top: 0.3rem;
   }
+}
+
+:root {
+  --cell-green: #3f8f4f;
+  --cell-red: #8b2e2e;
+  --cell-yellow: #b8952e;
+  --practice-highlight: #5ec3ff;
+}
+
+body.light {
+  --cell-green: #4caf50;
+  --cell-red: #d9534f;
+  --cell-yellow: #e0b93f;
+  --practice-highlight: #e82c20;
+}
+
+.practice-hint {
+  font-size: 0.75rem;
+  color: var(--text-dim);
+  text-align: center;
+  margin: 0 0 0.75rem;
+}
+
+.practice-search-wrap {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.suggestions-list {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: var(--bg-alt);
+  border: 1px solid var(--border);
+  border-radius: 2px;
+  max-height: 240px;
+  overflow-y: auto;
+  z-index: 20;
+}
+
+.suggestion-item {
+  padding: 0.5rem 0.75rem;
+  cursor: pointer;
+}
+
+.suggestion-item:hover {
+  background: var(--border);
+}
+
+.win-banner {
+  display: none;
+  background: var(--bg-alt);
+  border: 1px solid var(--border);
+  border-radius: 2px;
+  padding: 1rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.win-banner h2 {
+  margin: 0 0 0.4rem;
+  font-size: 1.1rem;
+}
+
+.win-banner p {
+  margin: 0;
+  color: var(--text-dim);
+  font-size: 0.9rem;
+}
+
+.scroll-hint {
+  display: none;
+  font-size: 0.75rem;
+  color: var(--text-dim);
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+@media (max-width: 700px) {
+  .scroll-hint {
+    display: block;
+  }
+}
+
+.guess-table-wrap {
+  overflow-x: auto;
+}
+
+.guess-table {
+  border-collapse: separate;
+  border-spacing: 3px;
+  width: 100%;
+  min-width: 700px;
+}
+
+.guess-table th {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  color: var(--text-dim);
+  padding: 0.3rem;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.guess-cell {
+  background: var(--bg-alt);
+  border: 1px solid var(--border);
+  border-radius: 2px;
+  padding: 0.5rem 0.35rem;
+  text-align: center;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--text);
+  white-space: normal;
+  overflow-wrap: break-word;
+  word-break: normal;
+  line-height: 1.15;
+}
+
+.guess-cell.name-cell {
+  text-align: center;
+}
+
+.haki-x {
+  font-size: 1.35rem;
+  font-weight: 900;
+  line-height: 1;
+  text-shadow: 0 0 0.6px currentColor, 0 0 0.6px currentColor;
+}
+
+.mode-toggle {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.mode-btn {
+  background: var(--bg-alt);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 2px;
+  padding: 0.5rem 1rem;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.mode-btn.active {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.fruit-prompt {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.fruit-prompt-label {
+  font-size: 0.8rem;
+  color: var(--text-dim);
+  margin-bottom: 0.3rem;
+}
+
+.fruit-prompt-name {
+  font-size: 1.3rem;
+  font-weight: 700;
+  background: var(--bg-alt);
+  border: 1px solid var(--border);
+  border-radius: 2px;
+  padding: 0.75rem 1rem;
+  display: inline-block;
+}
+
+.hint-buttons {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  margin: 0.75rem 0;
+}
+
+.hint-btn {
+  background: var(--bg-alt);
+  color: var(--text-dim);
+  border: 1px solid var(--border);
+  border-radius: 2px;
+  padding: 0.4rem 0.7rem;
+  font-size: 0.75rem;
+  cursor: not-allowed;
+}
+
+.hint-btn.hint-ready {
+  cursor: pointer;
+  color: var(--practice-highlight);
+  border-color: var(--practice-highlight);
+  box-shadow: 0 0 0 1px var(--practice-highlight);
+}
+
+.fruit-hint-message {
+  display: none;
+  text-align: center;
+  font-size: 0.85rem;
+  color: var(--text);
+  background: var(--bg-alt);
+  border: 1px solid var(--border);
+  border-radius: 2px;
+  padding: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.fruit-guess-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.5rem;
+}
+
+.fruit-guess-box {
+  min-width: 0;
+  border-radius: 2px;
+  padding: 0.75rem;
+  text-align: center;
+}
+
+.fruit-guess-box.green {
+  background: var(--cell-green);
+  color: #ffffff;
+}
+
+.fruit-guess-box.red {
+  background: var(--cell-red);
+  color: #ffffff;
+}
+
+.fruit-guess-name {
+  font-weight: 700;
+  margin-bottom: 0.3rem;
+  font-size: 0.9rem;
+}
+
+.fruit-guess-fruit {
+  font-size: 0.78rem;
+  opacity: 0.9;
+  white-space: pre-line;
+}
+
+@media (min-width: 701px) {
+  .guess-table {
+    table-layout: fixed;
+    min-width: 0;
+  }
+  .guess-cell {
+    font-size: 0.72rem;
+    padding: 0.45rem 0.3rem;
+  }
+}
+
+.guess-cell.green {
+  background: var(--cell-green);
+  color: #ffffff;
+  border-color: var(--cell-green);
+}
+
+.guess-cell.red {
+  background: var(--cell-red);
+  color: #ffffff;
+  border-color: var(--cell-red);
+}
+
+.guess-cell.yellow {
+  background: var(--cell-yellow);
+  color: #1a1a1a;
+  border-color: var(--cell-yellow);
 }

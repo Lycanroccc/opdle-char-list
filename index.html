@@ -9,13 +9,17 @@
 <body>
   <header class="site-header">
     <h1>OnePiecedle Character List</h1>
-    <button id="themeToggle" class="theme-toggle" type="button">Reshiram</button>
+    <div class="header-buttons">
+      <a class="theme-toggle" href="practice.html">Practice</a>
+      <button id="themeToggle" class="theme-toggle" type="button"><span id="themeToggleLabel">Reshiram</span><span class="theme-toggle-caption">Light mode</span></button>
+    </div>
   </header>
 
   <main>
     <div class="controls">
       <input
         id="searchBox"
+        class="search-input"
         type="text"
         placeholder="Search name, affiliation, devil fruit, haki, bounty, height, origin, arc, gender..."
         autocomplete="off"

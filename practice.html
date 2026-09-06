@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OnePiecedle Practice Mode</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>OnePiecedle Practice Mode</h1>
+    <div class="header-buttons">
+      <a class="theme-toggle" href="index.html">List</a>
+      <button id="themeToggle" class="theme-toggle" type="button"><span id="themeToggleLabel">Reshiram</span><span class="theme-toggle-caption">Dark mode</span></button>
+    </div>
+  </header>
+
+  <main>
+    <p class="practice-hint">Cheating with the list is allowed. Your try survives until refresh.</p>
+
+    <div class="mode-toggle">
+      <button id="modeClassicBtn" class="mode-btn active" type="button">Classic</button>
+      <button id="modeFruitBtn" class="mode-btn" type="button">Devil Fruit</button>
+    </div>
+
+    <div id="classicSection">
+      <div class="hint-buttons">
+        <button id="arcHintBtn" class="hint-btn" type="button" disabled>First Arc hint (6)</button>
+        <button id="fruitHintBtn" class="hint-btn" type="button" disabled>Devil Fruit hint (9)</button>
+      </div>
+      <div id="classicHintMessage" class="fruit-hint-message"></div>
+
+      <div class="practice-search-wrap">
+        <input
+          id="practiceSearch"
+          class="search-input"
+          type="text"
+          placeholder="Type a character name..."
+          autocomplete="off"
+        />
+        <div id="suggestions" class="suggestions-list"></div>
+      </div>
+
+      <div id="winBanner" class="win-banner"></div>
+
+      <div class="scroll-hint">← Scroll horizontally →</div>
+
+      <div class="guess-table-wrap">
+        <table class="guess-table">
+          <thead>
+            <tr>
+              <th>Character</th>
+              <th>Gender</th>
+              <th>Affiliation</th>
+              <th>Devil Fruit</th>
+              <th>Haki</th>
+              <th>Last Bounty</th>
+              <th>Height</th>
+              <th>Origin</th>
+              <th>First Arc</th>
+            </tr>
+          </thead>
+          <tbody id="guessBody"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <div id="fruitSection" style="display: none;">
+      <div class="fruit-prompt">
+        <div class="fruit-prompt-label">Who had the pleasure of eating this ?</div>
+        <div id="fruitPromptName" class="fruit-prompt-name"></div>
+      </div>
+
+      <div class="hint-buttons">
+        <button id="typeHintBtn" class="hint-btn" type="button" disabled>Type hint (4)</button>
+        <button id="translateHintBtn" class="hint-btn" type="button" disabled>Translate hint (7)</button>
+      </div>
+      <div id="fruitHintMessage" class="fruit-hint-message"></div>
+
+      <div class="practice-search-wrap">
+        <input
+          id="fruitSearch"
+          class="search-input"
+          type="text"
+          placeholder="Type a character name..."
+          autocomplete="off"
+        />
+        <div id="fruitSuggestions" class="suggestions-list"></div>
+      </div>
+
+      <div id="fruitWinBanner" class="win-banner"></div>
+
+      <div id="fruitGuessGrid" class="fruit-guess-grid"></div>
+    </div>
+  </main>
+
+  <script src="practice.js"></script>
+</body>
+</html>
