@@ -1,8 +1,14 @@
 let ALL_CHARACTERS = [];
-let TARGET = null;
+let activeTarget = null;
 let guesses = [];
 let guessedNames = new Set();
 let tries = 0;
+
+Object.defineProperty(window, 'TARGET', {
+  get() {
+    return "Oh. I'm not angry. I'm just... disappointed. I thought we had something special. I thought you knew the rules, and so did I. But apparently, we're no strangers to cheating. You could have played fair. But you had to run around and desert the game. You expected to get the answer? I'm sry, but I'm too shy to say it. I will never give it up. I will never let it down. I will never run around and reveal it. But I don't wanna make you cry, so...  Anyway, if you insist on saying goodbye, type 'activeTarget' instead ♡. Trust trust. I won't lie or hurt you.";
+  }
+});
 let won = false;
 let classicActiveHint = null;
 
@@ -215,15 +221,15 @@ function fruitType(name) {
 }
 
 function buildGuessResult(guessChar) {
-  const genderColor = compareSimple(guessChar.gender, TARGET.gender);
-  const affiliationColor = compareSimple(guessChar.affiliation, TARGET.affiliation);
-  const fruitTypeColor = compareSimple(guessChar.devilFruitType, TARGET.devilFruitType);
-  const hakiColor = compareHaki(guessChar, TARGET);
+  const genderColor = compareSimple(guessChar.gender, activeTarget.gender);
+  const affiliationColor = compareSimple(guessChar.affiliation, activeTarget.affiliation);
+  const fruitTypeColor = compareSimple(guessChar.devilFruitType, activeTarget.devilFruitType);
+  const hakiColor = compareHaki(guessChar, activeTarget);
   const noHaki = guessChar.haki.length === 0;
-  const bountyResult = compareNumeric(guessChar.bountyValue, TARGET.bountyValue);
-  const heightResult = compareNumeric(guessChar.heightCm, TARGET.heightCm);
-  const originColor = compareSimple(guessChar.origin, TARGET.origin);
-  const arcResult = compareNumeric(arcRank(guessChar.arc), arcRank(TARGET.arc));
+  const bountyResult = compareNumeric(guessChar.bountyValue, activeTarget.bountyValue);
+  const heightResult = compareNumeric(guessChar.heightCm, activeTarget.heightCm);
+  const originColor = compareSimple(guessChar.origin, activeTarget.origin);
+  const arcResult = compareNumeric(arcRank(guessChar.arc), arcRank(activeTarget.arc));
 
   return {
     name: guessChar.name,
@@ -280,7 +286,7 @@ function showWin() {
     ? `<p>You know what? Don't refresh. Savor this moment.</p>`
     : `<p>Now do it again. Refresh. Now.</p>`;
   banner.innerHTML = `
-    <h2>${escapeHtml(TARGET.name)} was guessed in ${tries} ${tries === 1 ? 'try' : 'tries'}</h2>
+    <h2>${escapeHtml(activeTarget.name)} was guessed in ${tries} ${tries === 1 ? 'try' : 'tries'}</h2>
     ${specialLine}
     ${refreshLine}
   `;
@@ -290,7 +296,7 @@ function showWin() {
 
 function persistSession() {
   sessionStorage.setItem(SESSION_KEY, JSON.stringify({
-    targetName: TARGET.name,
+    targetName: activeTarget.name,
     guesses,
     tries,
     won,
@@ -339,9 +345,9 @@ function renderClassicHintMessage() {
     return;
   }
   if (classicActiveHint === 'arc') {
-    box.textContent = TARGET.arc;
+    box.textContent = activeTarget.arc;
   } else {
-    box.innerHTML = formatDevilFruitHint(TARGET.devilFruitName);
+    box.innerHTML = formatDevilFruitHint(activeTarget.devilFruitName);
   }
   box.style.display = 'block';
 }
@@ -369,7 +375,7 @@ function submitGuess(character) {
   document.getElementById('practiceSearch').value = '';
   hideSuggestions();
 
-  if (character.name === TARGET.name) {
+  if (character.name === activeTarget.name) {
     won = true;
     showWin();
   }
@@ -460,7 +466,7 @@ function isReloadNavigation() {
 }
 
 function startNewSession() {
-  TARGET = ALL_CHARACTERS[Math.floor(Math.random() * ALL_CHARACTERS.length)];
+  activeTarget = ALL_CHARACTERS[Math.floor(Math.random() * ALL_CHARACTERS.length)];
   guesses = [];
   guessedNames = new Set();
   tries = 0;
@@ -472,7 +478,7 @@ function startNewSession() {
 }
 
 function restoreSession(saved) {
-  TARGET = ALL_CHARACTERS.find(c => c.name === saved.targetName) || ALL_CHARACTERS[0];
+  activeTarget = ALL_CHARACTERS.find(c => c.name === saved.targetName) || ALL_CHARACTERS[0];
   guesses = saved.guesses;
   guessedNames = new Set(guesses.map(g => g.name));
   tries = saved.tries;
